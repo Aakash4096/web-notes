@@ -1,12 +1,12 @@
-import reactLogo from "../assets/react.svg";
-import "../navbar.css";
-import "../index.css";
+import '../styles/Navbar.css';
 
 function Navbar() {
   return (
-    <nav>
-      <img src={reactLogo} alt="Logo" />
-      <h2>ReactFacts</h2>
+    <nav className="navbar">
+      <div className="navbar-content">
+        <h1>📝 Web Notes</h1>
+        <p className="navbar-subtitle">Save and manage your notes</p>
+      </div>
     </nav>
   );
 }
